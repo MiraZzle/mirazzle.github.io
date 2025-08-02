@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matěj Foukal | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body>
+    <div class="main-layout">
+      <aside class="sidebar">
+        <div class="sidebar-content">
+          <img src="img/avatar.png" alt="Matěj Foukal" class="profile-pic" />
+          <h1 id="name">Matěj Foukal</h1>
+          <p class="subtitle">Computer Science Student and Software Engineer</p>
+
+          <div class="contact-info">
+            <div><i class="fas fa-map-marker-alt"></i> Based in Prague, Czechia</div>
+            <div><i class="fas fa-graduation-cap"></i> Studying at MFF, Charles University</div>
+            <div>
+              <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i> matej@foukalma.cz</a>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/MiraZzle" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/matej-foukal/" target="_blank" aria-label="LinkedIn" title="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <section id="about">
+          <h2><i class="fas fa-wind"></i> About Me</h2>
+          <p>
+            I'm a CS student who enjoys building systems that handle data efficiently. Lately, I've been diving into distributed systems and
+            how organizations manage their data. My main strength is developing applications that are powered by smart use of data.
+          </p>
+        </section>
+
+        <section id="technologies">
+          <h2><i class="fas fa-gear"></i> My Tech Stack</h2>
+          <div class="tech-grid">
+            <span class="tech-item">Python</span>
+            <span class="tech-item">Docker</span>
+            <span class="tech-item">Numpy</span>
+            <span class="tech-item">Pandas</span>
+            <span class="tech-item">TypeScript</span>
+            <span class="tech-item">C#</span>
+            <span class="tech-item">Java</span>
+            <span class="tech-item">Svelte 4</span>
+            <span class="tech-item">SQL</span>
+            <span class="tech-item">Entity Framework</span>
+            <span class="tech-item">PostgreSQL</span>
+            <span class="tech-item">Git & GitHub</span>
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2><i class="fas fa-code"></i> Featured Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <h3>EngaGenie</h3>
+              <p>
+                An open-source polling platform for interactive voting. Full-stack app using .NET 8, SvelteKit, PostgreSQL, and Docker,
+                developed as a part of bachelor's thesis.
+              </p>
+              <div class="project-tags">
+                <span>Svelte</span>
+                <span>C#</span>
+                <span>PostgreSQL</span>
+                <span>Docker</span>
+              </div>
+              <a href="https://github.com/MiraZzle/hlasovatko-bachelor-thesis" target="_blank" class="project-link"
+                >View on GitHub <i class="fab fa-github"></i
+              ></a>
+            </div>
+            <div class="project-card">
+              <h3>SiteSeeker</h3>
+              <p>
+                Minimalist web crawler for building website graphs and extracting link information. It features a Svelte frontend, a Node.js
+                backend, and supports parallel web scraping
+              </p>
+              <div class="project-tags">
+                <span>Svelte</span>
+                <span>JavaScript</span>
+                <span>SQLite</span>
+                <span>Express.js</span>
+              </div>
+              <a href="https://github.com/MiraZzle/site-seeker" target="_blank" class="project-link"
+                >View on GitHub <i class="fab fa-github"></i
+              ></a>
+            </div>
+            <div class="project-card">
+              <h3>Parsehub</h3>
+              <p>
+                Locally deployable tool for data format conversion and validation. Supports standard tasks like validation, formatting,
+                conversion, and minification. It provides an API service for developers working with structured data.
+              </p>
+              <div class="project-tags">
+                <span>Java</span>
+                <span>SpringBoot</span>
+              </div>
+              <a href="https://github.com/MiraZzle/parsehub" target="_blank" class="project-link"
+                >View on GitHub <i class="fab fa-github"></i
+              ></a>
+            </div>
+            <div class="project-card">
+              <h3>BrickBuddy</h3>
+              <p>Desktop application designed for Lego enthusiasts to manage their Lego sets effectively.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>PyQt</span>
+              </div>
+              <a href="https://github.com/MiraZzle/brick-buddy" target="_blank" class="project-link"
+                >View on GitHub <i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience">
+          <h2><i class="fas fa-clipboard-list"></i> Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h3>Software Engineering Intern</h3>
+              <p><em>Oracle OCI, Prague - 08/2025</em></p>
+              <ul>
+                <li>Helping with development of cloud infrastructure solutions.</li>
+              </ul>
+            </div>
+            <div class="timeline-item">
+              <h3>Frontend Web Developer</h3>
+              <p><em>Green Panda, Prague - 06/2024 to 10/2024</em></p>
+              <ul>
+                <li>Translated Figma designs into responsive and optimized web applications using the SvelteKit framework.</li>
+                <li>Collaborated closely with the designer to ensure visual consistency and UI performance across devices.</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <h3>Game Developer</h3>
+              <p><em>HATS!, Brno - 07/2021 to 09/2021</em></p>
+              <ul>
+                <li>Contributed to the development of HATS!, winner of the Czech Game of the Year 2021 (student category).</li>
+                <li>Created interactive game environments and world mechanics using Godot and GDScript.</li>
+                <li>Worked in a version-controlled team environment using Git.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
